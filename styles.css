@@ -1,5 +1,112 @@
-* {
-	margin: 0;
-	top:0;
-	background:gray;
+/*
+
+.mozarella{
+ height: 160px;
+}
+
+.boneless-wings{
+  
+}
+
+.shrimp{
+  height: 160px;
+}
+
+.chicken{
+  height: 145px;
+}
+
+small {
+  font-family: cursive;
+}*/
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 2.1%;
+}
+.col:first-child { margin-left: 0; }
+
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1;  }
+
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 74.47%;
+}
+.span_2_of_4 {
+  width: 48.95%;
+}
+.span_1_of_4 {
+  width: 23.42%;
+}
+
+@media only screen and (max-width: 480px) {
+  .col {  margin: 10% 0 10% 0%; }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+p {
+  color: red;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px 100px;
+  background-color: #FFFFCC;
+}
+
+small {
+  font-family: cursive;
+}
+
+body{
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  width: 630px;
+  background: url("http://cdn-jpg.allyou.com/sites/default/files/image/2014/01/300x300/i/2010/07/applebees-logo-m.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130%;
+}
+
+div {
+  background-image: url("http://www.freelargeimages.com/wp-content/uploads/2015/06/White_Background_01.jpg");
+}
+
+.award-names{
+  background-color: white;
+  height: 120px;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
+footer {
+  font-size: 100%;
+  padding: 7px 0px 0px 20px;
+  clear: both;
+  color: #ffffff;
 }
